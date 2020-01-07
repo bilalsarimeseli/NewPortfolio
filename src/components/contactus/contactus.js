@@ -91,8 +91,9 @@ export default class ContactUs extends Component {
               <p className="address">
                 Bilal Sarimeseli
                 <br />
-                1600 Amphitheatre Parkway <br />
-                San Jose, CA 94043 US
+                Almaden Valley
+                 <br />
+                San Jose, CA 95120 US
                 <br />
                 <span>(669) 2654820 </span>
               </p>

@@ -5,7 +5,7 @@ export default class About extends Component {
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img className="profile-pic" src="images/bilalprofile.JPG" alt="" />
+            <img className="profile-pic" src="images/bilalprofile.JPG" alt="profilephoto" />
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
@@ -35,8 +35,8 @@ export default class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href="#" className="button">
-                    <i className="fa fa-download" />
+                  <a href="https://drive.google.com/file/d/14Zi2Dk-u8Akzs3BB4gvFq9Fs0XcSMjMD/view?usp=sharing" target="_blank" download = "resumebilal.jpg" className="button">
+                    <i className="fa " />
                     Download Resume
                   </a>
                 </p>
