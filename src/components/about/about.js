@@ -1,20 +1,30 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 export default class About extends Component {
   render() {
     return (
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img className="profile-pic" src="images/bilalprofile.JPG" alt="profilephoto" />
+            <img
+              className="profile-pic"
+              src="images/bilalprofile.JPG"
+              alt="profilephoto"
+            />
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>
-              I am Bilal, and I live in San Jose, California with my wife Zehra and two sons. I worked as a physics teacher
-              more than 10 years and pursuing my passion, I enrolled to UC Berkeley
-              Coding Bootcamp. I was trained in Web Development using HTML, CSS, JSS, React.Js, Node.Js
-              MongoDB, mySQL, Python and Algorithms. I enjoy reading, coding, singing, playing recorder, learning new lanugages
-              and improving myself in Software Development. I can speak 5 languages. 
+              Driven Full Stack Web Developer, trained and certified by UC
+              Berkeley’s Web Development Bootcamp. Proud to be passionate
+              physics teacher, lifelong learner , enthusiastic about
+              programming, self-taught through various online courses.
+              Successfully took part and practiced effective teamwork in three
+              web development projects providing training and creation of a
+              portfolio of games and web applications. Initiated a computer
+              programming class for middle schools as well as facilitated a
+              “Girls Who Code” club. Excited to leverage and hone skills in a
+              collaborative team environment, seeking perpetual learning,
+              improvement, and sharing.
             </p>
             <div className="row">
               <div className="columns contact-details">
@@ -22,11 +32,7 @@ export default class About extends Component {
                 <p className="address">
                   <span>Bilal Sarimeseli</span>
                   <br />
-                  <span>
-                    457 Buena Vista Av.
-                    <br />
-                    Alameda, CA 94501 US
-                  </span>
+                  <span>San Jose, CA</span>
                   <br />
                   <span>(669)265-4820</span>
                   <br />
@@ -35,7 +41,12 @@ export default class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href="https://drive.google.com/file/d/14Zi2Dk-u8Akzs3BB4gvFq9Fs0XcSMjMD/view?usp=sharing" target="_blank" download = "resumebilal.jpg" className="button">
+                  <a
+                    href="https://drive.google.com/file/d/14Zi2Dk-u8Akzs3BB4gvFq9Fs0XcSMjMD/view?usp=sharing"
+                    target="_blank"
+                    download="resumebilal.jpg"
+                    className="button"
+                  >
                     <i className="fa " />
                     Download Resume
                   </a>

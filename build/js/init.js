@@ -152,7 +152,7 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "inc/sendEmail.php",
+	      url: "https://bilalsarimeseli.github.io/NewPortfolio/",
 	      data: data,
 	      success: function(msg) {
 
